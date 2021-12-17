@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/JonPeeAir/restaurant-page/issues"
   },
-  "homepage": "https://github.com/JonPeeAir/restaurant-page#readme"
+  "homepage": "https://github.com/JonPeeAir/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
 }
