@@ -114,10 +114,10 @@
 }
 
 #testimonial-section {
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
     background-color: var(--primaryColorAccent);
     width: 100%;
-    padding: 2rem;
+    padding: 2rem 0rem;
 
     display: flex;
     flex-direction: column;
@@ -134,7 +134,7 @@
 }
 
 #testimonials {
-    width: 80vw;
+    width: 95%;
     
     display: flex;
     justify-content: center;
@@ -175,11 +175,13 @@
 .text > .quote {
     font-family: var(--primaryFont);
     font-weight: bold;
+    font-size: 1.3rem;
 }
 
 .text > .person {
     height: 50%;
     font-family: var(--secondaryFont);
+    font-size: 1.3rem;
     position: relative;
 }
 
