@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display:wght@400;500&display=swap');
 
 :root {
-    --mainFont: 'Playfair Display', serif;
+    --mainFont: 'Playfair Display', monospace;
     --secondaryFont: 'Noto Serif', serif;
 
     --primaryColor: #FFF7EA;
@@ -215,9 +215,16 @@
     cursor: pointer;
 }
 
-.menu-page {
+.page {
     height: 100vh;
     margin-top: 115px;
+}
+
+.page-title {
+    color: var(--secondaryColor);
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: var(--primaryFont);
 }
 
 #footer {
