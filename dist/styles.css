@@ -215,6 +215,11 @@
     cursor: pointer;
 }
 
+.menu-page {
+    height: 100vh;
+    margin-top: 115px;
+}
+
 #footer {
     padding: 1rem;
     background-color: var(--secondaryColor);
