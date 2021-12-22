@@ -41,7 +41,7 @@ body {
 
 #logo {
     color: white;
-    cursor: default;
+    cursor: pointer;
     font-family: var(--mainFont);
     font-size: 2.5rem;
     font-weight: 700;
