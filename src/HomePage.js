@@ -36,11 +36,9 @@ export default (() => {
         const testimonialSection = document.createElement("div");
         testimonialSection.id = "testimonial-section";
 
-        // ----append to testimonial section-- Creating the testimonial header
         const testimonialHeader = document.createElement("p");
         testimonialHeader.textContent = "Check out what our customers have to say";
 
-        // ----appended to testimonial section-- Creating the testimonials 
         const testimonials = document.createElement("div");
         testimonials.id = "testimonials";
 
