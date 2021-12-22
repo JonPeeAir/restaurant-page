@@ -6,6 +6,10 @@ export default (() => {
     function load() {
         clearContent();
         displayHomepage();
+        window.scrollTo({
+            top: 1,
+            behavior: 'smooth',
+        });
     }
 
     function displayHomepage() {

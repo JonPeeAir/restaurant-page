@@ -5,6 +5,10 @@ export default (() => {
     function load() {
         clearContent();
         displayMenuPage();
+        window.scrollTo({
+            top: 1,
+            behavior: 'smooth',
+        });
     }
 
     function displayMenuPage() {
