@@ -6,13 +6,21 @@ module.exports = {
     output: {
         filename: 'main.[contenthash].js',
         path: path.resolve(__dirname, 'dist'),
+        assetModuleFilename: 'assets/[name].[hash][ext][query]',
+        clean: true,
     },
     module: {
         rules: [
             {
                 test: /\.css$/i,
                 use: ["style-loader", "css-loader"],
+            },
+
+            {
+                test: /\.(svg|png|jpg|gif)$/i,
+                type: "asset/resource",
             }
+            
         ]
     },
     plugins: [

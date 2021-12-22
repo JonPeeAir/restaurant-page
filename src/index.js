@@ -1,9 +1,15 @@
+// import Javascript files/modules
 import HomePage from "./HomePage.js";
 import MenuPage from "./MenuPage.js";
 import AboutPage from "./AboutPage.js"; 
 import ContactPage from "./ContactPage.js";
 
+// import CSS stylesheets
 import "./styles.css";
+
+// Import assets used
+import coffeeLogo from "./assets/coffee-logo.png";
+import githubImg from "./assets/github-logo.svg";
 
 const navBar = (() => {
     const navBar = document.createElement("div");
@@ -16,7 +22,7 @@ const navBar = (() => {
     logo.onclick = HomePage.load;
 
     const logoImg = new Image();
-    logoImg.src = "./assets/coffee-logo.png";
+    logoImg.src = coffeeLogo;
     logoImg.alt = "company logo";
 
     logo.appendChild(logoImg);
@@ -80,7 +86,7 @@ const footer = (() => {
     githubProfileLink.target = "_blank";
 
     const githubLogo = new Image();
-    githubLogo.src = "./assets/github-logo.svg";
+    githubLogo.src = githubImg;
     githubLogo.alt = "github logo";
 
     githubProfileLink.appendChild(githubLogo);

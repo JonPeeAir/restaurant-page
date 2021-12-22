@@ -1,5 +1,12 @@
+// Import Javascript files/modules
 import clearContent from "./index.js";
 import MenuPage from "./MenuPage.js";
+
+// Import assets used
+import coffeeTable from "./assets/coffee-image.jpg";
+import yodaImg from "./assets/yoda.png";
+import akiraImg from "./assets/akira.jpg";
+import dababyImg from "./assets/dababy.jpg";
 
 export default (() => {
 
@@ -17,7 +24,7 @@ export default (() => {
 
         // Creating the image
         const coffeeImg = new Image();
-        coffeeImg.src = "./assets/coffee-image.jpg";
+        coffeeImg.src = coffeeTable;
         coffeeImg.alt = "image of two coffee cups on a table";
 
         // Creating the slogan
@@ -67,7 +74,7 @@ export default (() => {
         const yodaInfo = {
             name: "Yoda probably...",
             quote: "Mmm, best coffee Kopee has...",
-            imgSrc: "./assets/yoda.png",
+            imgSrc: yodaImg,
             imgAlt: "yoda",
         }
         const yodaTestimony = createTestimony(yodaInfo);
@@ -75,7 +82,7 @@ export default (() => {
         const akiraInfo = {
             name: "My dog",
             quote: "Woof Woof!",
-            imgSrc: "./assets/akira.jpg",
+            imgSrc: akiraImg,
             imgAlt: "a siberian husky",
         }
         const akiraTestimony = createTestimony(akiraInfo);
@@ -83,7 +90,7 @@ export default (() => {
         const dababyInfo = {
             name: "Dababy???",
             quote: "LEZ GOOOO",
-            imgSrc: "./assets/dababy.jpg",
+            imgSrc: dababyImg,
             imgAlt: "Dababy",
         }
         const dababyTestimony = createTestimony(dababyInfo);
