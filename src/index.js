@@ -1,5 +1,6 @@
+import HomePage from "./HomePage.js";
 import MenuPage from "./MenuPage.js";
-import AboutPage from "./AboutPage.js";
+import AboutPage from "./AboutPage.js"; 
 import ContactPage from "./ContactPage.js";
 
 const navBar = (() => {
@@ -111,6 +112,8 @@ const body = document.querySelector("body");
 body.append(navBar);
 body.append(contentDiv);
 body.append(footer);
+
+HomePage.load();
 
 
 export default function clearContent() {
