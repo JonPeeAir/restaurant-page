@@ -3,6 +3,8 @@ import MenuPage from "./MenuPage.js";
 import AboutPage from "./AboutPage.js"; 
 import ContactPage from "./ContactPage.js";
 
+import "./styles.css";
+
 const navBar = (() => {
     const navBar = document.createElement("div");
     navBar.id = "navbar";
