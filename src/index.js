@@ -11,6 +11,7 @@ const navBar = (() => {
     // Creating the Logo
     const logo = document.createElement("div");
     logo.id = "logo";
+    logo.onclick = HomePage.load;
 
     const logoImg = new Image();
     logoImg.src = "./assets/coffee-logo.png";
