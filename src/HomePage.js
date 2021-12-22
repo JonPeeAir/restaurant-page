@@ -1,4 +1,5 @@
 import clearContent from "./index.js";
+import MenuPage from "./MenuPage.js";
 
 export default (() => {
 
@@ -91,6 +92,7 @@ export default (() => {
         const menuBtn = document.createElement("button");
         menuBtn.id = "home-menu";
         menuBtn.textContent = "Check out our menu";
+        menuBtn.onclick = MenuPage.load;
 
         // Putting it all together
         content.append(coffeeImg, slogan, testimonialSection, menuBtn);
